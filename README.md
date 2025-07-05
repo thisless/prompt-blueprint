@@ -48,7 +48,7 @@ open meta-prompts/prompt-engineering-agent.md
 The **[prompt-engineering agent](meta-prompts/prompt-engineering-agent.md)** is designed to transform simple requirements into production-ready prompts. Here's how to use it effectively:
 
 ### Step 1: Load the Agent
-Copy the entire content of `meta-prompts/prompt-engineering-agent.md` and paste it into your preferred AI interface (ChatGPT, Claude, etc.).
+Copy the entire content of [`prompt-engineering-agent.md`](meta-prompts/prompt-engineering-agent.md) and paste it into your preferred AI interface (ChatGPT, Claude, etc.).
 
 ### Step 2: Describe Your Need
 Simply describe what kind of prompt you need. The agent works best with:

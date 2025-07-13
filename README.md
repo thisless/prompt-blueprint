@@ -68,6 +68,28 @@ open examples/customer-support-agent.md
 
 **What is it?** A sophisticated AI agent that transforms your simple requirements into professional, production-ready prompts with documentation and usage guidelines.
 
+### 🔄 How It Works
+
+```mermaid
+flowchart LR
+    A[👤 Your Request<br/>I need a customer service prompt] --> B{Add Context?}
+    
+    B -->|No| C[🤖 Agent Only]
+    B -->|Yes| D[📚 Unified Guide<br/>+ 🤖 Agent]
+    
+    C --> E[✅ Good Prompt]
+    D --> F[⭐ Better Prompt<br/>with advanced techniques]
+    
+    style A fill:#e3f2fd
+    style D fill:#f3e5f5
+    style F fill:#fff9c4
+```
+
+**Simple workflow:**
+1. **Ask the agent** what you need
+2. **Optional:** Load the [unified guide](guides/unified-best-practices__claude_sonnet_4.md) first for enhanced results
+3. **Get your prompt** — ready to use!
+
 ### Why Use This Agent?
 
 - ✅ **Save hours** — No need to research best practices or iterate manually
@@ -81,6 +103,8 @@ open examples/customer-support-agent.md
 1. Open [`meta-prompts/prompt-engineering-agent.md`](meta-prompts/prompt-engineering-agent.md)
 2. Copy the entire content
 3. Paste it into your preferred AI interface (ChatGPT, Claude, etc.)
+
+**💡 Pro Tip:** For even better results, first load the [`unified-best-practices__claude_sonnet_4.md`](guides/unified-best-practices__claude_sonnet_4.md) guide to give the agent additional context about advanced techniques.
 
 #### Step 2: Describe What You Need
 Just tell the agent what kind of prompt you want:

@@ -1,8 +1,3 @@
-Excellent. I will create a full, GitHub-ready Markdown documentation file focused on general prompt engineering best practices tailored for Google's Gemini models. The guide will incorporate Gemini-specific techniques from the provided document and include content suitable for both developers and business users.
-
-You’ll receive a production-grade, linkable, and annotated reference guide shortly.
-
-
 # Prompt Engineering Guide for Google Gemini Models
 
 ![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)

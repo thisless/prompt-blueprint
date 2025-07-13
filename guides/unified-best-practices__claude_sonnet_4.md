@@ -1,36 +1,3 @@
-This is a massive request to unify 4 comprehensive prompt engineering guides from Anthropic, OpenAI, Google, and PromptingGuide.ai into one ultimate guide. The user wants the "pinnacle guide for prompt engineering" that surpasses everything else.
-
-Let me analyze what I have:
-
-1. **Anthropic Guide**: Focus on clarity, specificity, context, structure, examples, positivity. Covers Claude-specific features like system messages, XML tags, constitutional AI. Has 6 foundational techniques: context first, show examples, specify output constraints, break into steps, encourage thinking, define AI role.
-
-2. **OpenAI Guide**: 6 core principles: clear instructions, provide reference context, break down complex tasks, give model time to think (CoT), use external tools/functions, test systematically. Covers ChatML, system messages, function calling, GPT-4 vs GPT-3.5 differences.
-
-3. **Google Guide**: Structured around Persona/Task/Context/Format framework. Emphasizes Google Workspace integration, natural language, specificity, iteration. 6 quick tips including using documents as context and letting Gemini help improve prompts.
-
-4. **PromptingGuide.ai**: Most comprehensive research-based guide. Covers fundamental principles plus advanced techniques like Chain-of-Thought, ReAct, Tree-of-Thoughts, Self-Consistency, RAG, PAL, etc. Very thorough on techniques and frameworks.
-
-I need to create a unified guide that:
-- Takes the best from each guide
-- Is complete and self-contained
-- Surpasses any individual guide
-- Is extremely detailed
-- Serves as the definitive reference
-
-Key structure I'll use:
-1. Introduction that positions this as THE definitive guide
-2. Foundational Principles (unifying the core principles from all 4)
-3. Essential Techniques (covering all major techniques with examples)
-4. Advanced Frameworks (the cutting-edge stuff from PromptingGuide.ai)
-
-
-5. Platform-Specific Considerations
-6. Anti-Patterns and Debugging
-7. Practical Templates and Use Cases
-8. Evaluation and Iteration
-9. Resources and Future Directions
-
-I'll systematically integrate insights from multiple sources, creating a comprehensive roadmap that covers platform-specific nuances, debugging strategies, practical applications, and continuous improvement techniques. The goal is to develop an authoritative, multi-dimensional approach to prompt engineering that provides practitioners with a holistic understanding of advanced interaction methodologies.
 # The Ultimate Prompt Engineering Guide
 ## A Complete, Self-Contained Reference for Mastering AI Prompt Design
 

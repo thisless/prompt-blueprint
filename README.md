@@ -1,81 +1,112 @@
 # Prompt Blueprint
 
-*Distilled prompt‑engineering guides, a dedicated **[prompt‑engineering agent](meta-prompts/prompt-engineering-agent.md)**, and copy‑paste‑ready **AI prompt** examples — all in one place.*
+**A comprehensive collection of AI prompt engineering resources: distilled best-practice guides, a professional prompt-engineering agent, and ready-to-use prompt examples.**
+
+> 🎯 **Perfect for:** Developers, AI practitioners, and anyone looking to improve their prompt engineering skills with proven techniques from industry leaders.
 
 ---
 
-## Table of Contents
+## 🚀 What You'll Find Here
 
-1. [Overview](#overview)
-2. [Quick Start](#quick-start)
-3. [Using the Prompt Engineering Agent](#using-the-prompt-engineering-agent)
-4. [Repository Layout](#repository-layout)
-5. [How It Works](#how-it-works)
-6. [Contributing](#contributing)
-7. [Disclaimer](#disclaimer)
+- **📚 [Curated Guides](#-prompt-engineering-guides)** — Distilled best practices from OpenAI, Anthropic, Google, and more
+- **🤖 [AI Agent](#-using-the-prompt-engineering-agent)** — Transform simple requirements into production-ready prompts
+- **📝 [Ready-Made Examples](#-repository-structure)** — Copy-paste prompts for common use cases
+- **🔧 [Meta-Prompts](#-repository-structure)** — Advanced tools for creating and refining prompts
 
 ---
 
-## Overview
+## ⚡ Quick Start
 
-**Prompt Blueprint** is an educational repository that shows how modern AI models—**with distilled prompt‑engineering best practices**—can help you craft **higher‑quality prompts, faster**. It is *not* the final word on prompt engineering; think of it as a hands‑on lab for learning, iterating, and sharing.
-
----
-
-## Quick Start
+**New to prompt engineering?** Start here:
 
 ```bash
-# 1 · Clone the repo
+# 1. Clone the repository
 git clone https://github.com/thibaultyou/prompt-blueprint.git
 cd prompt-blueprint
 
-# 2 · Browse a distilled guide
+# 2. Read the unified best practices guide (recommended first read)
 open guides/unified-best-practices__claude_sonnet_4.md
 
-# 3 · Try a ready-made AI prompt
-open examples/customer-support-agent.md
-# Then paste the prompt into your preferred LLM interface.
-
-# 4 · Use the prompt-engineering agent
+# 3. Try the prompt engineering agent
 open meta-prompts/prompt-engineering-agent.md
-# Follow the instructions to generate your own prompts from minimal specs.
+# Copy the content and paste it into ChatGPT, Claude, or your preferred AI
+
+# 4. Explore ready-made examples
+open examples/customer-support-agent.md
 ```
+
+**Already experienced?** Jump to the [prompt engineering agent](#-using-the-prompt-engineering-agent) or browse [specific guides](#available-guides) for your AI model.
 
 ---
 
-## Using the Prompt Engineering Agent
+## 📚 Prompt Engineering Guides
 
-The **[prompt-engineering agent](meta-prompts/prompt-engineering-agent.md)** is designed to transform simple requirements into production-ready prompts. Here's how to use it effectively:
+**What are these?** Concise, actionable guides that distill official documentation and best practices from major AI providers into practical advice you can use immediately.
 
-### Step 1: Load the Agent
-Copy the entire content of [`prompt-engineering-agent.md`](meta-prompts/prompt-engineering-agent.md) and paste it into your preferred AI interface (ChatGPT, Claude, etc.).
+### Available Guides
 
-### Step 2: Describe Your Need
-Simply describe what kind of prompt you need. The agent works best with:
+| Guide | What It Covers | Created By |
+|-------|----------------|------------|
+| [`unified-best-practices__claude_sonnet_4.md`](guides/unified-best-practices__claude_sonnet_4.md) | **⭐ START HERE** — Comprehensive best practices combining insights from all major providers | Claude Sonnet 4 |
+| [`openai-best-practices__chatgpt-4_5.md`](guides/openai-best-practices__chatgpt-4_5.md) | OpenAI's official prompt engineering guidelines and techniques | ChatGPT-4/5 |
+| [`anthropic-best-practices__chatgpt-4_5.md`](guides/anthropic-best-practices__chatgpt-4_5.md) | Anthropic's Claude prompting strategies and best practices | ChatGPT-4/5 |
+| [`google-best-practices__chatgpt-4_5.md`](guides/google-best-practices__chatgpt-4_5.md) | Google's Gemini prompt engineering recommendations | ChatGPT-4/5 |
+| [`prompting-guide-ai-best-practices__chatgpt-4_5.md`](guides/prompting-guide-ai-best-practices__chatgpt-4_5.md) | General AI prompting principles and advanced techniques | ChatGPT-4/5 |
 
-**Good examples:**
-- "I need a prompt for customer service chatbot that handles complaints professionally"
-- "Create a code review prompt for senior developers that catches security issues"
-- "Design a creative writing prompt that generates marketing copy for SaaS products"
+### How to Use These Guides
 
-**Even better examples (optional details):**
-- "I need a customer support prompt for a SaaS company, optimized for Claude, handling 100+ daily conversations"
-- "Create a technical documentation prompt for API references, must be GDPR compliant"
+1. **🌟 Start with the unified guide** — Get a comprehensive overview of all best practices
+2. **🎯 Choose provider-specific guides** — Dive deeper into techniques for your preferred AI model
+3. **🔄 Reference during prompt creation** — Use alongside our [prompt-engineering agent](#-using-the-prompt-engineering-agent)
+4. **📈 Iterate and improve** — Combine insights from multiple guides for optimal results
 
-### Step 3: Get Professional Results
-The agent will execute a 7-stage workflow and deliver:
-- ✅ **Production-ready prompt** with professional formatting
-- ✅ **Usage guidelines** and implementation notes
-- ✅ **Performance benchmarks** and success metrics
-- ✅ **Troubleshooting guide** for common issues
-- ✅ **Cross-platform compatibility** (GPT-4, Claude, Gemini)
+> **Important:** These are AI-generated summaries of official documentation, optimized for practical use. They are not official provider documents but are based on official sources.
 
-### Step 4: Customize Further (Optional)
+---
+
+## 🤖 Using the Prompt Engineering Agent
+
+**What is it?** A sophisticated AI agent that transforms your simple requirements into professional, production-ready prompts with documentation and usage guidelines.
+
+### Why Use This Agent?
+
+- ✅ **Save hours** — No need to research best practices or iterate manually
+- ✅ **Professional quality** — Get enterprise-grade prompts with proper formatting
+- ✅ **Cross-platform** — Works with GPT-4, Claude, Gemini, and other models
+- ✅ **Complete package** — Includes usage guidelines, troubleshooting, and metrics
+
+### Quick Start Guide
+
+#### Step 1: Load the Agent
+1. Open [`meta-prompts/prompt-engineering-agent.md`](meta-prompts/prompt-engineering-agent.md)
+2. Copy the entire content
+3. Paste it into your preferred AI interface (ChatGPT, Claude, etc.)
+
+#### Step 2: Describe What You Need
+Just tell the agent what kind of prompt you want:
+
+**Simple examples:**
+- "I need a customer service chatbot prompt"
+- "Create a code review prompt for my team"
+- "Design a creative writing prompt for marketing copy"
+
+**Detailed examples (even better results):**
+- "I need a customer support prompt for a SaaS company, handling 100+ daily conversations, optimized for Claude"
+- "Create a technical documentation prompt for API references that must be GDPR compliant"
+
+#### Step 3: Get Professional Results
+The agent delivers a complete package:
+- 📝 **Production-ready prompt** with professional formatting
+- 📋 **Usage guidelines** and implementation notes
+- 📊 **Performance benchmarks** and success metrics
+- 🔧 **Troubleshooting guide** for common issues
+- 🌐 **Cross-platform compatibility** notes
+
+#### Step 4: Refine (Optional)
 Ask for specific adjustments:
 - "Make it more concise for high-volume use"
-- "Add HIPAA compliance requirements"
+- "Add compliance requirements for healthcare"
 - "Optimize specifically for GPT-4"
-- "Include multi-language support"
 
 ### Example Workflow
 ```
@@ -89,42 +120,61 @@ You: "Great! Can you make it more concise for high-volume use?"
 Agent: [Provides optimized version focused on efficiency]
 ```
 
-### What Makes This Agent Special
-- **Enterprise-grade quality** with high success rate targets
-- **Cross-model optimization** for different AI platforms
-- **Professional documentation** with troubleshooting guides
-- **Latest research integration** using advanced prompting techniques
-- **Industry-specific adaptations** for compliance and specialized needs
+---
+
+## 📁 Repository Structure
+
+| Directory | What's Inside | Best For |
+|-----------|---------------|----------|
+| **[`/guides`](guides)** | Distilled best practices from major AI providers | Learning prompt engineering fundamentals |
+| **[`/meta-prompts`](meta-prompts)** | Advanced AI agents for prompt creation and documentation | Creating custom prompts and tools |
+| **[`/examples`](examples)** | Ready-to-use prompts for common scenarios | Quick implementation and inspiration |
+
+### Key Files
+
+- **[`prompt-engineering-agent.md`](meta-prompts/prompt-engineering-agent.md)** — The main agent that creates professional prompts from your requirements
+- **[`documentation-expert-agent.md`](meta-prompts/documentation-expert-agent.md)** — The agent that creates and updates the guides themselves
+- **[`customer-support-agent.md`](examples/customer-support-agent.md)** — Example of a production-ready prompt created by the agent
 
 ---
 
-## Repository Layout
+## 🔄 How This Repository Works
 
-| Path              | Contents                                                                                                                                                                                                                                                       |
-| ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **/guides**       | Concise, prompting guides distilled by an AI agent (e.g., [`anthropic-best-practices__chatgpt-4_5.md`](guides/anthropic-best-practices__chatgpt-4_5.md), [`openai-best-practices__chatgpt-4_5.md`](guides/openai-best-practices__chatgpt-4_5.md)). **These are not official documents.**                                                                   |
-| **/meta-prompts** | • [`prompt-engineering-agent.md`](meta-prompts/prompt-engineering-agent.md) — an expert agent (crafted from the distilled guides) that converts brief user requirements into robust prompts.<br>• [`documentation-expert-agent.md`](meta-prompts/documentation-expert-agent.md) — the agent used to create—and continually refine—the guides themselves. |
-| **/examples**     | Copy‑paste‑ready **AI prompts** generated by the [prompt‑engineering agent](meta-prompts/prompt-engineering-agent.md) from minimal user inputs (e.g., [`customer-support-agent.md`](examples/customer-support-agent.md)).                                                                                                                                                                            |
+1. **📖 Research & Distillation** — The [`documentation-expert-agent`](meta-prompts/documentation-expert-agent.md) processes official documentation from AI providers and creates the guides in [`/guides`](guides)
 
----
+2. **🧠 Knowledge Integration** — The [`prompt-engineering-agent`](meta-prompts/prompt-engineering-agent.md) embodies these best practices, using them to create high-quality prompts
 
-## How It Works
+3. **📚 Example Generation** — The agent's outputs are collected in [`/examples`](examples) as ready-to-use prompts
 
-1. **Guide Distillation** — [`/guides`](guides) contains AI‑generated condensations of official prompt‑engineering advice from major providers, produced by [`meta-prompts/documentation-expert-agent.md`](meta-prompts/documentation-expert-agent.md).
-2. **Prompt‑Engineering Agent** — [`meta-prompts/prompt-engineering-agent.md`](meta-prompts/prompt-engineering-agent.md) embodies those best practices, turning short specs into well‑structured, production‑grade prompts.
-3. **Example Library** — The agent's outputs live in [`/examples`](examples), giving you finished prompts to study or use immediately.
-4. **Documentation Expert Agent** — This agent creates and updates the guides themselves; as it evolves, the guides can change too.
+4. **🔄 Continuous Improvement** — As the agents evolve, the guides and examples are updated to reflect the latest best practices
 
 ---
 
-## Contributing
+## 🤝 Contributing
 
-Feedback, issue reports, and small pull requests (e.g., new guides or prompt examples) are welcome. **Please note:** this repository is a personal experiment and may evolve slowly; it is *not* intended to reach production‑grade maturity.
+We welcome contributions! Here's how you can help:
+
+- 🐛 **Report issues** — Found a problem? Let us know
+- 📝 **Suggest improvements** — Ideas for better guides or examples
+- 🔧 **Submit pull requests** — New guides, examples, or improvements
+- 💡 **Share feedback** — How are you using these resources?
+
+> **Note:** This is a personal research project that evolves over time. It may not reach production-grade maturity but aims to be a valuable learning resource.
 
 ---
 
-## Disclaimer
+## ⚠️ Important Disclaimers
 
-* **Work in progress** — provided **as‑is** for learning purposes only.
-* **Unofficial guides** — files in [`/guides`](guides) are AI‑generated best‑practice summaries, *not* official provider documentation.
-* **No warranties** — the author makes no guarantees of fitness for production and accepts no liability for any outcomes. Use at your own discretion.
+- **🚧 Work in Progress** — This repository is provided as-is for educational purposes
+- **📄 Unofficial Content** — Guides are AI-generated summaries, not official provider documentation
+- **🔒 No Warranties** — Use at your own discretion; no guarantees for production use
+- **🎓 Educational Focus** — Designed for learning and experimentation, not commercial deployment
+
+---
+
+## 📞 Questions?
+
+- Check the [guides](#-prompt-engineering-guides) for fundamentals
+- Try the [prompt engineering agent](#-using-the-prompt-engineering-agent) for custom prompts
+- Browse [examples](examples) for inspiration
+- Open an issue for specific problems or suggestions
